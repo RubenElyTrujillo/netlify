@@ -1,9 +1,2 @@
-[build]
-  command = "cd ../.. && npm install && npm run build"
-  publish = ".next"
-
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-
-[[headers]]
-  for = "/_next/image/*"
